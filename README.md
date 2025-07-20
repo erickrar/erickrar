@@ -1,16 +1,23 @@
-## Hi there 👋
+ <h2>  <img src="https://media.tenor.com/PJC_qDDQnssAAAAj/inosuke-protesta.gif" width="50"> Hi, I'm Erick!</h2>
 
-<!--
-**erickrar/erickrar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p><em>Bachelor’s degree in Information System's at Centro Universitário da Cidade <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>CIO at <a href="https://www.lugga.rio">Lügga</a> <img src="https://giffiles.alphacoders.com/297/2970.gif" width="30"> 
+</em></p>
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```java
+
+public class GitHubApplication {
+
+    public static void main(String[] args) {
+
+        Developer.builder()
+            .name("Erick Ribeiro")
+            .code(Arrays.asList("Java", "Angular", "CSS", ".NET"))
+            .skills(Arrays.asList("JUnit", "Spring Data", "Spring Security", "WebFlux", "API Rest", "Angular Material", "AWS"))
+            .tools(Arrays.asList("Docker", "GitHub Actions"))
+            .interests(Arrays.asList("Fashion", "Movies", "Counterculture", "Jiu Jitsu"))
+        .build();
+    }
+}
+
+```
